@@ -13,6 +13,9 @@ Risk: This is a control port for virtualization software. If an attacker gains a
 
 Mitigation: Ensure the service behind it is up-to-date, protected by a strong password, and access is limited only to authorized hosts.
 
+
+
+
 ----- Moderate Priority Risks (Discovery & Management) -----
 These ports are not inherently dangerous but increase the network's "attack surface" by revealing configuration details and offering entry points.
 
@@ -25,5 +28,6 @@ Mitigation: Disable UPnP on the router and any local devices that do not strictl
 Ports 7073, 8082, 8200, 8443 (Alternate Web/App Ports):
 
 Risk: These are non-standard ports, likely running a web service, application, or proxy. The main risk is an unpatched vulnerability in the specific application running on the port, or a weak administrative password for a management interface.
+
 
 Mitigation: Determine the exact software running on each port (you can use Nmap scripts for this) and ensure it is fully patched and secured with strong credentials.
