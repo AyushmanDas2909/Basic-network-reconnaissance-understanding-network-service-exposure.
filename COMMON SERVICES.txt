@@ -1,0 +1,102 @@
+Service Mapping and Analysis of Open Ports
+
+This analysis maps the open ports found in the Nmap scan to their primary, well-known functions using a clear, non-tabular list format.
+
+
+
+
+
+
+
+Host 1 - General Services-
+
+
+
+Port 80/tcp (http)
+
+Common Function: Standard unencrypted web traffic (Web Server).
+
+
+Port 443/tcp (https)
+
+Common Function: Standard encrypted web traffic (Secure Web Server).
+
+
+Port 1900/tcp (upnp)
+
+Common Function: Universal Plug and Play (UPnP) for device discovery.
+
+
+Port 7073/tcp (oracleas-https)
+
+Common Function: Secure application server or management interface (e.g., Oracle AS/WebLogic).
+
+
+Port 8082/tcp (teradatardbms)
+
+Common Function: Alternate HTTP/Web Proxy or non-standard web application port.
+
+
+Port 8200/tcp (http-proxy)
+
+Common Function: HTTP Proxy Server or an alternative web application port.
+
+
+Port 8443/tcp (https-alt)
+
+Common Function: Alternate Secure HTTPS port, often used for admin panels.
+
+
+
+
+
+
+
+
+Host 2 - Discovery Service (192.168.29.102)
+
+
+Port 2869/tcp (icslap)
+
+Common Function: Internet Connection Sharing (ICS) or UPnP device discovery.
+
+
+
+
+
+
+
+
+Host 3 - Windows & Virtualization Services (192.168.29.88)
+
+
+
+
+Port 135/tcp (msrpc)
+
+Common Function: Microsoft Remote Procedure Call (RPC) for inter-process communication in Windows.
+
+
+Port 139/tcp (netbios-ssn)
+
+Common Function: NetBIOS Session Service (Older Windows File Sharing).
+
+
+Port 445/tcp (microsoft-ds)
+
+Common Function: Server Message Block (SMB) - Primary Windows File and Printer Sharing.
+
+
+Port 902/tcp (vmauthd)
+
+Common Function: VMware Authentication Daemon for ESXi/vCenter Console Access.
+
+
+Port 912/tcp (apex-mesh)
+
+Common Function: Used by various network or peer-to-peer applications.
+
+
+Port 5357/tcp (wsdapi)
+
+Common Function: Web Services for Devices API (Windows network discovery for printers/scanners).
