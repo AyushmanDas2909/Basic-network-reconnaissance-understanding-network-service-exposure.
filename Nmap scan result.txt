@@ -1,0 +1,53 @@
+Nmap scan report for reliance.reliance (192.168.29.1)
+Host is up (0.0090s latency).
+Not shown: 991 filtered tcp ports (no-response)
+
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8002/tcp closed teradataordbms
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+
+
+Nmap scan report for 192.168.29.8
+Host is up (0.0060s latency).
+All 1000 scanned ports on 192.168.29.8 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+
+Nmap scan report for 192.168.29.37
+Host is up (0.017s latency).
+All 1000 scanned ports on 192.168.29.37 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+
+Nmap scan report for 192.168.29.66
+Host is up (0.0095s latency).
+All 1000 scanned ports on 192.168.29.66 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+
+Nmap scan report for 192.168.29.102
+Host is up (0.0061s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+2869/tcp open  icslap
+
+
+Nmap scan report for 192.168.29.88
+Host is up (0.0000050s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+5357/tcp open  wsdapi
+
+Nmap done: 256 IP addresses (6 hosts up) scanned in 12.85 seconds
