@@ -1,6 +1,6 @@
 Network Reconnaissance Methodology and Analysis
 This document outlines the step-by-step process executed for conducting a network reconnaissance scan, mapping services, and performing an initial risk assessment on a local network segment.
-
+---------------------------------------------------------------------------------------------------------------------
 
 
 The 8-Step Reconnaissance Process:-
@@ -56,26 +56,21 @@ VMware Console Access (Port 902): Risk of hypervisor control if authentication i
 
 UPnP/Device Discovery (Ports 1900, 2869): Risk of firewall bypass via malicious automatic port forwarding.
 Purpose: To translate technical findings into actionable security recommendations.
-
-
-
-
+--------------------------------------------------------------------------------------------------------------------
 
 Documents Attached in the GitHub Repo
 
 The following files provide the raw data, evidence, and analysis supporting this reconnaissance project:
 
-Screenshots (Step 5 Evidence)
-
-wireshark_syn_packet.png: Screenshot showing the initial SYN packet sent from the scanning host.
-
-wireshark_syn_ack_packet.png: Screenshot showing the SYN/ACK response from the target host for an open port.
+1. Screenshots (Step 5 Evidence)
+NMAP ACK REQUEST PACKET CAPTURE via wireshark.png
+NMAP SYN REQUEST PACKET CAPTURE via wireshark.png
 
 Text Files (Raw Data & Analysis)
 
-nmap_raw_results.txt: The complete, unfiltered output from the nmap -sS scan, including all open and closed port data.
+ Nmap scan result.txt: The complete, unfiltered output from the nmap -sS scan, including all open and closed port data.
 
-service_mapping_analysis.txt: Documentation of common services mapped to the open ports found (Step 6 data).
+COMMON SERVICES: Documentation of common services mapped to the open ports found (Step 6 data).
 
-potential_risks_summary.txt: Summary of the key security risks and associated reasoning for the open ports (Step 7 data).
+Potential risks.txt: Summary of the key security risks and associated reasoning for the open ports (Step 7 data).
 
